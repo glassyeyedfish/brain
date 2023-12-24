@@ -2,7 +2,7 @@ CC = cc
 CFLAGS = -std=c99 -Wpedantic -Wall -Wextra -g
 # LDFLAGS =
 
-TGT = program
+TGT = brain
 
 SRC = $(shell find -type f -name "*.c")
 OBJ = $(SRC:./src/%.c=./build/%.o)
